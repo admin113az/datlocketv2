@@ -59,13 +59,5 @@ WinkVIP = type=http-response,pattern=^https?:\/\/api-sub\.meitu\.com\/v2\/user\/
 # MITM
 # ==============================
 [MITM]
-hostname = %APPEND%, \
-*.googlevideo.com, \
-youtubei.googleapis.com, \
-www.youtube.com, \
-s.youtube.com, \
-api.revenuecat.com, \
-spclient.wg.spotify.com, \
-*spclient.spotify.com, \
-api-mobile.soundcloud.com, \
-api-sub.meitu.com
+hostname = %APPEND%,*.googlevideo.com,youtubei.googleapis.com,www.youtube.com,s.youtube.com,api.revenuecat.com,spclient.wg.spotify.com,*spclient.spotify.com,api-mobile.soundcloud.com,api-sub.meitu.com
+
